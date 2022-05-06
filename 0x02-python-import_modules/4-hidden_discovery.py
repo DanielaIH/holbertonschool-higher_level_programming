@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import hidden_4 as hd
 if __name__ == '__main__':
     f_name = dir(hd)
