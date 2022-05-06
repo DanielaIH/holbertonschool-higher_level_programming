@@ -2,5 +2,5 @@
 if __name__ == '__main__':
     import hidden_4
     for x in dir(hidden_4).sort():
-        if "__" not in x:
+        if x[0] != '_':
             print(x)
