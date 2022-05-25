@@ -9,4 +9,5 @@ class Square:
         size (no type/value verification)
     """
     def __init__(self, size):
+        """ creates a square object """
         self.__size = size
