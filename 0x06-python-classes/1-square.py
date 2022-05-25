@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+
+"""class Square - a class that defines a square"""
+
 class Square:
     """
     class Square - a class that defines a square
@@ -9,5 +12,4 @@ class Square:
         size (no type/value verification)
     """
     def __init__(self, size):
-        """ creates a square object """
         self.__size = size
