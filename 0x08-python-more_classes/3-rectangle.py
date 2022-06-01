@@ -16,7 +16,8 @@ class Rectangle():
         if (self.width + self.height > 0):
             for x in range(self.height):
                 acum += ("#" * self.width) + "\n"
-        return acum[:-1]
+            acum = acum[:-1]
+        return acum
 
     @property
     def width(self):
