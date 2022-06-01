@@ -21,7 +21,7 @@ class Rectangle():
 
     def __repr__(self):
         """The _repr_ method return a string of Rectangle instance"""
-        return "Rectangle({},{})".format(self.width, self.height)
+        return "Rectangle(%r,%r)" % (self.width, self.height)
 
     @property
     def width(self):
