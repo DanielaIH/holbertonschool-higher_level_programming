@@ -3,6 +3,7 @@
 
 
 class Rectangle():
+    """Rectangle - defines a rectangle"""
 
     def __init__(self, width=0, height=0):
         """The _init_ method defines the properties of Rectangle"""
