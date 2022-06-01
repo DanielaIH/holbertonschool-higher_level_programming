@@ -13,7 +13,7 @@ class Rectangle():
     def __str__(self):
         """The _str_ method print a Rectangle with #"""
         acum = ""
-        if (self.width + self.height > 0):
+        if (self.width * self.height > 0):
             for x in range(self.height):
                 acum += ("#" * self.width) + "\n"
             acum = acum[:-1]
