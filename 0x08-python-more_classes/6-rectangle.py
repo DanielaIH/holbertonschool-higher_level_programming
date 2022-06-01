@@ -6,6 +6,7 @@ class Rectangle():
     """Rectangle - defines a rectangle"""
 
     number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """The _init_ method defines the properties of Rectangle"""
         self.width = width
