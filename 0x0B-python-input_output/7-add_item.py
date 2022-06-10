@@ -16,4 +16,3 @@ if __name__ == "__main__":
     for x in args:
         my_list.append(x)
     save_to_json_file(my_list, "add_item.json")
-
