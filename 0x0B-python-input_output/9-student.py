@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """0x0B-python-input_output - 9-student.py"""
-class_to_json = __import__('8-class_to_json').class_to_json
 
 
 class Student():
@@ -13,4 +12,4 @@ class Student():
 
     def to_json(self):
         """to_json - retrieves a dictionary representation"""
-        return class_to_json(self)
+        return self.__dict__
