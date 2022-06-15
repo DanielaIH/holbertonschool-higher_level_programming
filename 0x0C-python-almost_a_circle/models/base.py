@@ -4,6 +4,7 @@
 
 from models.__init__ import __init__
 
+
 class Base():
     __nb_objects = 0
     """Class Base - base of all other classes in this project"""
