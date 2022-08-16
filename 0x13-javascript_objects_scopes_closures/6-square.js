@@ -5,9 +5,10 @@ class Square extends Rectangle {
   constructor (size) {
     super(size, size);
   }
-  charPrint(c) {
+
+  charPrint (c) {
     if (!c) {
-        c = 'X';
+      c = 'X';
     }
     let counter = 0;
     while (counter < this.height) {
