@@ -5,6 +5,6 @@ axios.get(args[2])
   .then(function (response) {
     console.log('code: ' + response.status);
   })
-  .catch(function () {
-    console.log('code: 404');
+  .catch(function (error) {
+    console.log('code: ' + error.response.status);
   });
