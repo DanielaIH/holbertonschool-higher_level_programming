@@ -8,9 +8,9 @@ from sqlalchemy.orm import Session
 
 if __name__ == "__main__":
     """main function"""
-    user = sys.argv[1],
-    passwd = sys.argv[2],
-    db = sys.argv[3],
+    user = sys.argv[1]
+    passwd = sys.argv[2]
+    db = sys.argv[3]
     engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.format(
         user, passwd, db))
 
