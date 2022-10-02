@@ -6,7 +6,7 @@ the URL and displays the value of X-Request-Id"""
 
 
 if __name__ == "__main__":
-    url = argv[1]
-    with request.urlopen(url) as response:
+    """main content"""
+    with request.urlopen(argv[1]) as response:
         html = response.headers
     print(html.get('X-Request-Id'))
