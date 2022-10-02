@@ -10,5 +10,5 @@ if __name__ == "__main__":
     """main content"""
     post_data = parse.urlencode({"email": argv[2]}).encode()
 
-    with request.urlopen(request.Request(argv[1])) as response:
+    with request.urlopen(request.Request(argv[1], post_data)) as response:
         print(response.read().decode('utf-8'))
