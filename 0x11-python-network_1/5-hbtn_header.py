@@ -6,4 +6,4 @@ and displays the value of the variable X-Request-Id"""
 
 
 req = requests.get(argv[1])
-print(req.headers['X-Request-Id'])
+print(req.headers.get('X-Request-Id'))
